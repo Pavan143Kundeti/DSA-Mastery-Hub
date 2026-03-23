@@ -68,7 +68,10 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 - ✅ **Time Complexity** - Fundamentals Complete
-- 🔄 **Arrays** - In Progress
+- ✅ **Arrays** - Fundamentals & Problems Complete
+  - ✅ Array Basics & Memory Concepts
+  - ✅ Largest Element Problem
+  - ✅ Second Largest Element Problem
 - ⏳ **Strings** - Coming Soon
 - ⏳ **Linked Lists** - Coming Soon
 
@@ -80,8 +83,8 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Concepts Covered**: 1/15
-- **Problems Solved**: 0/500+
+- **Concepts Covered**: 2/15
+- **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
 
 ## 🤝 Contributing
@@ -103,7 +106,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Time Complexity Fundamentals
+**Latest Addition**: Arrays Fundamentals & Second Largest Element Problem
 
 ---
 
