@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (22 Topics)
+- ✅ **Python Basics** - Complete (23 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -103,6 +103,7 @@ DSA-Mastery-Hub/
   - ✅ For Loops
   - ✅ Functions (Complete with args, kwargs, scope)
   - ✅ Lambda, Recursion, Generators
+  - ✅ Range
 - ⏳ **Decorators** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
@@ -123,7 +124,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 22/50+
+- **Python Topics**: 23/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -147,7 +148,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Functions Complete (Functions, Lambda, Recursion, Generators)
+**Latest Addition**: Python Range function complete
 
 ---
 
