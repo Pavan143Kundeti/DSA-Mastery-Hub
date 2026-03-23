@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (29 Topics)
+- ✅ **Python Basics** - Complete (30 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -110,6 +110,7 @@ DSA-Mastery-Hub/
   - ✅ JSON
   - ✅ RegEx
   - ✅ PIP Package Manager
+  - ✅ Try Except (Exception Handling)
 - ⏳ **File Handling** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
@@ -130,7 +131,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 29/50+
+- **Python Topics**: 30/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -154,7 +155,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python PIP complete
+**Latest Addition**: Python Try Except (Exception Handling)
 
 ---
 
