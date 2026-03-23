@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (32 Topics)
+- ✅ **Python Basics** - Complete (33 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -113,6 +113,7 @@ DSA-Mastery-Hub/
   - ✅ Try Except (Exception Handling)
   - ✅ String Formatting (F-strings)
   - ✅ None
+  - ✅ User Input
 - ⏳ **File Handling** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
@@ -133,7 +134,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 32/50+
+- **Python Topics**: 33/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -157,7 +158,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python None complete
+**Latest Addition**: Python User Input complete
 
 ---
 
