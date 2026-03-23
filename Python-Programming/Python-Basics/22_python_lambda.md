@@ -346,3 +346,297 @@ sorted(list, key=lambda x: x[1])
 ---
 
 **Use lambda functions for simple, short-lived operations where a full function definition would be overkill!**
+
+---
+
+# Python Recursion
+
+## What is Recursion?
+
+**Definition:** Recursion is when a function calls itself.
+
+### Basic Example
+```python
+def countdown(n):
+    if n <= 0:
+        print("Done!")
+    else:
+        print(n)
+        countdown(n - 1)
+
+countdown(5)
+# Output: 5, 4, 3, 2, 1, Done!
+```
+
+---
+
+## Base Case and Recursive Case
+
+| Component | Description | Required? |
+|-----------|-------------|-----------|
+| **Base Case** | Condition that stops recursion | Yes |
+| **Recursive Case** | Function calling itself | Yes |
+
+Without a base case, the function runs forever (stack overflow error).
+
+### Factorial Example
+```python
+def factorial(n):
+    if n == 0 or n == 1:  # Base case
+        return 1
+    else:                  # Recursive case
+        return n * factorial(n - 1)
+
+print(factorial(5))  # Output: 120
+```
+
+---
+
+## Fibonacci Sequence
+
+**Definition:** Each number is the sum of the two preceding ones: 0, 1, 1, 2, 3, 5, 8, 13...
+
+```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+print(fibonacci(7))  # Output: 13
+```
+
+---
+
+## Recursion with Lists
+
+### Sum of List
+```python
+def sum_list(numbers):
+    if len(numbers) == 0:
+        return 0
+    else:
+        return numbers[0] + sum_list(numbers[1:])
+
+print(sum_list([1, 2, 3, 4, 5]))  # Output: 15
+```
+
+### Find Maximum
+```python
+def find_max(numbers):
+    if len(numbers) == 1:
+        return numbers[0]
+    else:
+        max_of_rest = find_max(numbers[1:])
+        return numbers[0] if numbers[0] > max_of_rest else max_of_rest
+
+print(find_max([3, 7, 2, 9, 1]))  # Output: 9
+```
+
+---
+
+## Recursion Depth Limit
+
+Python has a recursion limit (default ~1000 calls).
+
+```python
+import sys
+print(sys.getrecursionlimit())  # Check limit
+sys.setrecursionlimit(2000)     # Increase limit (use with caution)
+```
+
+---
+
+# Python Generators
+
+## What are Generators?
+
+**Definition:** Generators are functions that can pause and resume execution. They use `yield` instead of `return`.
+
+### Basic Generator
+```python
+def my_generator():
+    yield 1
+    yield 2
+    yield 3
+
+for value in my_generator():
+    print(value)
+# Output: 1, 2, 3
+```
+
+---
+
+## The yield Keyword
+
+**Definition:** `yield` pauses the function and returns a value. Next call continues from where it left off.
+
+```python
+def count_up_to(n):
+    count = 1
+    while count <= n:
+        yield count
+        count += 1
+
+for num in count_up_to(5):
+    print(num)
+# Output: 1, 2, 3, 4, 5
+```
+
+| Keyword | Action | Can be called |
+|---------|--------|---------------|
+| `return` | Terminates function | Once |
+| `yield` | Pauses function | Multiple times |
+
+---
+
+## Generators Save Memory
+
+Generators generate values on-the-fly instead of storing everything in memory.
+
+```python
+def large_sequence(n):
+    for i in range(n):
+        yield i
+
+gen = large_sequence(1000000)  # Doesn't create million numbers in memory
+print(next(gen))  # Output: 0
+print(next(gen))  # Output: 1
+```
+
+---
+
+## Using next() with Generators
+
+```python
+def simple_gen():
+    yield "Emil"
+    yield "Tobias"
+    yield "Linus"
+
+gen = simple_gen()
+print(next(gen))  # Output: Emil
+print(next(gen))  # Output: Tobias
+print(next(gen))  # Output: Linus
+# next(gen)  # Raises StopIteration
+```
+
+---
+
+## Generator Expressions
+
+Use parentheses instead of square brackets for generator expressions.
+
+```python
+# List comprehension - creates list
+list_comp = [x * x for x in range(5)]
+print(list_comp)  # [0, 1, 4, 9, 16]
+
+# Generator expression - creates generator
+gen_exp = (x * x for x in range(5))
+print(list(gen_exp))  # [0, 1, 4, 9, 16]
+```
+
+### With sum()
+```python
+total = sum(x * x for x in range(10))
+print(total)  # Output: 285
+```
+
+---
+
+## Fibonacci Generator
+
+```python
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+gen = fibonacci()
+for _ in range(10):
+    print(next(gen))
+# Output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+```
+
+---
+
+## Generator Methods
+
+### send() Method
+```python
+def echo_generator():
+    while True:
+        received = yield
+        print("Received:", received)
+
+gen = echo_generator()
+next(gen)  # Prime the generator
+gen.send("Hello")  # Output: Received: Hello
+```
+
+### close() Method
+```python
+def my_gen():
+    try:
+        yield 1
+        yield 2
+    finally:
+        print("Generator closed")
+
+gen = my_gen()
+print(next(gen))  # Output: 1
+gen.close()       # Output: Generator closed
+```
+
+---
+
+## Quick Reference
+
+### Recursion
+```python
+def recursive_func(n):
+    if base_case:      # Stop condition
+        return value
+    else:
+        return recursive_func(n-1)  # Call itself
+```
+
+### Generators
+```python
+def generator_func():
+    yield value1
+    yield value2
+
+gen = generator_func()
+next(gen)  # Get next value
+```
+
+---
+
+## Key Takeaways
+
+### ✅ Recursion
+- Function calls itself
+- Must have base case
+- Useful for tree/graph traversal
+- Has depth limit (~1000)
+
+### ✅ Generators
+- Use `yield` instead of `return`
+- Memory efficient
+- Lazy evaluation
+- Use `next()` to get values
+- Generator expressions with `()`
+
+### 🎯 Interview Important
+- Recursion base case importance
+- Recursion vs iteration
+- Generator vs list memory usage
+- When to use generators
+- `yield` vs `return`
+
+---
+
+**Use recursion for problems with recursive structure, and generators for memory-efficient iteration!**

@@ -102,8 +102,8 @@ DSA-Mastery-Hub/
   - ✅ While Loops
   - ✅ For Loops
   - ✅ Functions (Complete with args, kwargs, scope)
-  - ✅ Lambda Functions
-- ⏳ **Advanced Functions** - Coming Soon (Decorators, Recursion, Generators)
+  - ✅ Lambda, Recursion, Generators
+- ⏳ **Decorators** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
 ### 📖 DSA Concepts
@@ -147,7 +147,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Functions Complete (Functions, Lambda, args, kwargs, Scope)
+**Latest Addition**: Python Functions Complete (Functions, Lambda, Recursion, Generators)
 
 ---
 
