@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (17 Topics)
+- ✅ **Python Basics** - Complete (20 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -98,8 +98,11 @@ DSA-Mastery-Hub/
   - ✅ Sets
   - ✅ Dictionaries
   - ✅ If Statements
-- ⏳ **Control Structures (Loops)** - Coming Soon
+  - ✅ Match Statement
+  - ✅ While Loops
+  - ✅ For Loops
 - ⏳ **Functions & Modules** - Coming Soon
+- ⏳ **File Handling** - Coming Soon
 
 ### 📖 DSA Concepts
 - ✅ **Time Complexity** - Fundamentals Complete
@@ -118,7 +121,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 17/50+
+- **Python Topics**: 20/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -142,7 +145,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python If Statements (Complete with all conditional logic)
+**Latest Addition**: Python Control Flow Complete (If, Match, While, For Loops)
 
 ---
 
