@@ -80,8 +80,23 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Introduction** - Complete
-- ⏳ **Variables & Data Types** - Coming Soon
+- ✅ **Python Basics** - Complete (16 Topics)
+  - ✅ Introduction
+  - ✅ Syntax
+  - ✅ Statements
+  - ✅ Output & Print
+  - ✅ Comments
+  - ✅ Variables
+  - ✅ Data Types
+  - ✅ Numbers
+  - ✅ Casting
+  - ✅ Strings
+  - ✅ Booleans
+  - ✅ Operators
+  - ✅ Lists
+  - ✅ Tuples
+  - ✅ Sets
+  - ✅ Dictionaries
 - ⏳ **Control Structures** - Coming Soon
 - ⏳ **Functions & Modules** - Coming Soon
 
@@ -102,7 +117,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 1/20+
+- **Python Topics**: 16/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -126,7 +141,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Programming Introduction & Fundamentals
+**Latest Addition**: Python Basics Complete (16 Topics: Introduction to Dictionaries)
 
 ---
 
