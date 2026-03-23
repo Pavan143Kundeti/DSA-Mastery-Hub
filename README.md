@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (16 Topics)
+- ✅ **Python Basics** - Complete (17 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -97,7 +97,8 @@ DSA-Mastery-Hub/
   - ✅ Tuples
   - ✅ Sets
   - ✅ Dictionaries
-- ⏳ **Control Structures** - Coming Soon
+  - ✅ If Statements
+- ⏳ **Control Structures (Loops)** - Coming Soon
 - ⏳ **Functions & Modules** - Coming Soon
 
 ### 📖 DSA Concepts
@@ -117,7 +118,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 16/50+
+- **Python Topics**: 17/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -141,7 +142,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Basics Complete (16 Topics: Introduction to Dictionaries)
+**Latest Addition**: Python If Statements (Complete with all conditional logic)
 
 ---
 
