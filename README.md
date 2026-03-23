@@ -8,6 +8,11 @@ A comprehensive collection of DSA concepts, problem solutions, and quick referen
 
 ```
 DSA-Mastery-Hub/
+├── 🐍 Python-Programming/
+│   ├── Python-Basics/
+│   ├── Data-Structures/
+│   ├── Object-Oriented/
+│   └── Advanced-Topics/
 ├── 📖 Concepts/
 │   ├── Time-Complexity/
 │   ├── Arrays/
@@ -34,7 +39,13 @@ DSA-Mastery-Hub/
 
 ## 🎯 What You'll Find Here
 
-### 📖 Concepts
+### � Python Programming
+- **Complete Python fundamentals** from basics to advanced
+- **Hands-on examples** and practical exercises
+- **Best practices** and coding standards
+- **Real-world applications** and projects
+
+### �📖 Concepts
 - **Detailed explanations** of core DSA topics
 - **Visual examples** and step-by-step breakdowns
 - **Time & Space complexity** analysis
@@ -60,13 +71,21 @@ DSA-Mastery-Hub/
 
 ## 🚀 Getting Started
 
-1. **Browse Concepts**: Start with fundamental concepts in the `Concepts/` folder
-2. **Practice Problems**: Solve problems in `Problem-Solving/` section
-3. **Quick Review**: Use `Quick-Reference/` for last-minute revision
-4. **Interview Prep**: Check `Interview-Prep/` before your interviews
+1. **Learn Python**: Start with Python fundamentals in `Python-Programming/` folder
+2. **Understand Concepts**: Study core DSA concepts in the `Concepts/` folder
+3. **Practice Problems**: Solve problems in `Problem-Solving/` section
+4. **Quick Review**: Use `Quick-Reference/` for last-minute revision
+5. **Interview Prep**: Check `Interview-Prep/` before your interviews
 
 ## 📈 Progress Tracking
 
+### 🐍 Python Programming
+- ✅ **Python Introduction** - Complete
+- ⏳ **Variables & Data Types** - Coming Soon
+- ⏳ **Control Structures** - Coming Soon
+- ⏳ **Functions & Modules** - Coming Soon
+
+### 📖 DSA Concepts
 - ✅ **Time Complexity** - Fundamentals Complete
 - ✅ **Arrays** - Fundamentals & Problems Complete
   - ✅ Array Basics & Memory Concepts
@@ -83,7 +102,8 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Concepts Covered**: 2/15
+- **Python Topics**: 1/20+
+- **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
 
@@ -106,7 +126,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Arrays Fundamentals & Second Largest Element Problem
+**Latest Addition**: Python Programming Introduction & Fundamentals
 
 ---
 
