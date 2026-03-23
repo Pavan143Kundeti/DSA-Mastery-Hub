@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (20 Topics)
+- ✅ **Python Basics** - Complete (22 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -101,7 +101,9 @@ DSA-Mastery-Hub/
   - ✅ Match Statement
   - ✅ While Loops
   - ✅ For Loops
-- ⏳ **Functions & Modules** - Coming Soon
+  - ✅ Functions (Complete with args, kwargs, scope)
+  - ✅ Lambda Functions
+- ⏳ **Advanced Functions** - Coming Soon (Decorators, Recursion, Generators)
 - ⏳ **File Handling** - Coming Soon
 
 ### 📖 DSA Concepts
@@ -121,7 +123,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 20/50+
+- **Python Topics**: 22/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -145,7 +147,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Control Flow Complete (If, Match, While, For Loops)
+**Latest Addition**: Python Functions Complete (Functions, Lambda, args, kwargs, Scope)
 
 ---
 
