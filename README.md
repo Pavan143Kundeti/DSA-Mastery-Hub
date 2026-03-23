@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (30 Topics)
+- ✅ **Python Basics** - Complete (31 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -111,6 +111,7 @@ DSA-Mastery-Hub/
   - ✅ RegEx
   - ✅ PIP Package Manager
   - ✅ Try Except (Exception Handling)
+  - ✅ String Formatting (F-strings)
 - ⏳ **File Handling** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
@@ -131,7 +132,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 30/50+
+- **Python Topics**: 31/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -155,7 +156,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python Try Except (Exception Handling)
+**Latest Addition**: Python String Formatting (F-strings)
 
 ---
 
