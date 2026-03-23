@@ -80,7 +80,7 @@ DSA-Mastery-Hub/
 ## 📈 Progress Tracking
 
 ### 🐍 Python Programming
-- ✅ **Python Basics** - Complete (28 Topics)
+- ✅ **Python Basics** - Complete (29 Topics)
   - ✅ Introduction
   - ✅ Syntax
   - ✅ Statements
@@ -109,6 +109,7 @@ DSA-Mastery-Hub/
   - ✅ Modules, Datetime, Math
   - ✅ JSON
   - ✅ RegEx
+  - ✅ PIP Package Manager
 - ⏳ **File Handling** - Coming Soon
 - ⏳ **File Handling** - Coming Soon
 
@@ -129,7 +130,7 @@ DSA-Mastery-Hub/
 
 ## 📊 Current Stats
 
-- **Python Topics**: 28/50+
+- **Python Topics**: 29/50+
 - **DSA Concepts**: 2/15
 - **Problems Solved**: 2/500+
 - **Interview Questions**: 0/200+
@@ -153,7 +154,7 @@ This is a personal learning repository, but suggestions and improvements are wel
 ## 📅 Last Updated
 
 **Date**: March 23, 2026  
-**Latest Addition**: Python RegEx complete
+**Latest Addition**: Python PIP complete
 
 ---
 
